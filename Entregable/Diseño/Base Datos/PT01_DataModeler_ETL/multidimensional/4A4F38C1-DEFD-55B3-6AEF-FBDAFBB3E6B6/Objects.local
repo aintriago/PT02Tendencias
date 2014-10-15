@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign>
+   <object objectType="Dimension" objectID="E73EB999-F58B-9319-68A1-27008B81AA3F" name="DIMENSION_TIEMPO" seqName="seg_0"/>
+   <object objectType="Cube" objectID="B17CFCE1-16D0-98CB-7517-DFAA21ABA940" name="CUBO_PREDICCION" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign>

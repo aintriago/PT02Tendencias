@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Dimension class="oracle.dbtools.crest.model.design.multidimensional.Dimension" name="DIMENSION_TIEMPO" directorySegmentName="seg_0" id="E73EB999-F58B-9319-68A1-27008B81AA3F">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 14:47:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<nameInOracleAW>DIMENSION_TIEMPO</nameInOracleAW>
+<timeDimension>true</timeDimension>
+</Dimension>

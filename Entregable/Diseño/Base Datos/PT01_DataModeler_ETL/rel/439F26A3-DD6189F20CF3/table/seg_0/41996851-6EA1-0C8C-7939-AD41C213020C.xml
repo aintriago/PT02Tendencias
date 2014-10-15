@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41996851-6EA1-0C8C-7939-AD41C213020C" name="DIMENSION_TIEMPO">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 14:50:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<typeID>2</typeID>
+<schemaObject>67C147E9-D375-9D6D-8BED-5693CC2B90C1</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+</Table>

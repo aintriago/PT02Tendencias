@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PT01_DataModeler_ETL" id="8ADCDFB7-B4A8-B818-54D1-29C39A1E37FA" version="3.5">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 00:39:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8ADCDFB7-B4A8-B818-54D1-29C39A1E37FA</designId>
+</OSDM_Design>

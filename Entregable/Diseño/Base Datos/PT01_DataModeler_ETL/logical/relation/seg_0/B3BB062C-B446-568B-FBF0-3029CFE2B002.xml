@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIMENSION_CLIENTE_FK" directorySegmentName="seg_0" id="B3BB062C-B446-568B-FBF0-3029CFE2B002">
+<createdBy>VirtualBox</createdBy>
+<createdTime>2014-09-25 15:26:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<sourcePk>0A328FAD-F2DD-62B0-C06F-B3BC43E987EC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C570B90-974A-8E61-56F9-3D553B427CAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08F2F35C-2524-6B12-C5CC-A436BFB346AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="08F2F35C-2524-6B12-C5CC-A436BFB346AF" name="CUBO_PREDICCION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8C570B90-974A-8E61-56F9-3D553B427CAE" name="DIMENSION_CLIENTE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2CEC016F-14F0-E63F-D5B6-AC4F4A46CB8C" name="DIMENSION_GEOGRAFIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="363147F4-DD8A-C00E-5705-557E21781FDB" name="DIMENSION_HORA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2D44F3B9-69E9-C993-F74C-A7619AC96CCA" name="DIMENSION_LOCAL" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A954632B-34C4-024B-43D4-02EF1294A173" name="DIMENSION_MEDIO_PAGO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8918FE36-571C-C543-1999-16EAC9DAF287" name="DIMENSION_PRODUCTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0E81C596-7ADE-786F-12EB-56301D673501" name="DIMENSION_TIEMPO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8EDA32CA-BE44-A085-C352-AA43D31A0FC5" name="DIMENSION_TRAMO_APORTES" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B3BB062C-B446-568B-FBF0-3029CFE2B002" name="DIMENSION_CLIENTE_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="99624F50-E300-9545-305E-C91854958288" name="DIMENSION_GEOGRAFIA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3FBC6C7E-DC9D-45C7-3407-E757D8989478" name="DIMENSION_HORA_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C04F808D-3050-93E4-190F-F0EE93E003B9" name="DIMENSION_LOCAL_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B76059BC-FD2D-4893-1326-5FC10EB5798F" name="DIMENSION_MEDIO_PAGO_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4C4AE4AA-6FFD-11A0-0643-DD5B5607DC0F" name="DIMENSION_PRODUCTO_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="51F527E1-8189-423B-67DD-8C837905EF55" name="DIMENSION_TIEMPO_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="938F62A7-D8B5-D2E4-74B0-CB7DCC209796" name="DIMENSION_TRAMO_APORTES_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

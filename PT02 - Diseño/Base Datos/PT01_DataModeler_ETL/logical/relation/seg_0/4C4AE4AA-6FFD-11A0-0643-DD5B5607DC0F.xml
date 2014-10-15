@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIMENSION_PRODUCTO_FK" directorySegmentName="seg_0" id="4C4AE4AA-6FFD-11A0-0643-DD5B5607DC0F">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 20:08:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<sourcePk>3BE6F29F-5491-4D5E-871D-DD6C9AC38956</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8918FE36-571C-C543-1999-16EAC9DAF287</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08F2F35C-2524-6B12-C5CC-A436BFB346AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

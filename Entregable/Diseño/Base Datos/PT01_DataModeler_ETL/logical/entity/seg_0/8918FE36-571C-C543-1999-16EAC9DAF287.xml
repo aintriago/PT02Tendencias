@@ -1,0 +1,222 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8918FE36-571C-C543-1999-16EAC9DAF287" name="DIMENSION_PRODUCTO">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 00:43:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRODUCTO_DIMENSION_KEY" id="81230368-DF15-E2E7-6D7B-2E00996B50AB">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 00:52:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+</Attribute>
+<Attribute name="CATEGORIA_PROD_ID" id="339578D5-B4A6-26D4-5647-8140A36A593C">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 00:55:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+</Attribute>
+<Attribute name="CATEGORIA_CODIGO" id="BD46DC14-A3BD-F188-2862-82034B1624E7">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:15:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="CATEGORIA_PROD_NOMBRE" id="FAD39FCA-0C6F-D0C8-6088-751A028556A3">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:18:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MARCA_PROD_ID" id="55D836A7-403F-1178-5D6F-C52E74FC9C05">
+<createdBy>VirtualBox</createdBy>
+<createdTime>2014-09-25 15:32:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+</Attribute>
+<Attribute name="MARCA_PROD_CODIGO" id="207C8E81-146B-7D37-19EB-48964ACE2823">
+<createdBy>VirtualBox</createdBy>
+<createdTime>2014-09-25 15:32:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MARCA_PROD_NOMBRE" id="B910BD3A-6C39-AF21-1369-57EDAC64C1AA">
+<createdBy>VirtualBox</createdBy>
+<createdTime>2014-09-25 15:32:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="SECCION_PROD_ID" id="0D552F58-8BD1-96CC-4F89-1C4D34CA536B">
+<createdBy>VirtualBox</createdBy>
+<createdTime>2014-09-25 15:32:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+</Attribute>
+<Attribute name="SECCION_PROD_NOMBRE" id="64576954-45C5-6997-C0D1-8FCE566D79FA">
+<createdBy>VirtualBox</createdBy>
+<createdTime>2014-09-25 15:34:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="SECCION_PROD_CODIGO" id="3DD79D91-8AB8-93AC-66CA-F6806547C73E">
+<createdBy>VirtualBox</createdBy>
+<createdTime>2014-09-25 15:34:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="PRODUCTO_ID" id="CFF94F68-202C-36F1-0126-39D17B78FD4C">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:18:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+</Attribute>
+<Attribute name="PRODUCTO_CODIGO" id="FC635DBC-9F9A-FA11-0DFA-DDEF1B8B4B1B">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:23:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="PRODUCTO_NOMBRE" id="15DFD681-D36A-65E7-ED20-28F4E17FFBE5">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:24:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BE6F29F-5491-4D5E-871D-DD6C9AC38956" name="Dimension Producto PK">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 00:55:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>81230368-DF15-E2E7-6D7B-2E00996B50AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

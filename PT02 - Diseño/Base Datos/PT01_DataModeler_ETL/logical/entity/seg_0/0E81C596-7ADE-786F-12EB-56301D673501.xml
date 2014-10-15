@@ -1,0 +1,301 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E81C596-7ADE-786F-12EB-56301D673501" name="DIMENSION_TIEMPO">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:42:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TIEMPO_DIMENSION_KEY" id="D5DE60E0-80F3-89D4-E57E-640E37CC52D1">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="AGNO_ID" id="7DB4CBE2-0CED-6473-BBDF-CED74C5270A1">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="AGNO_FECHA" id="5C9F2A78-2412-63B0-AD84-46811348E7B9">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="AGNO_NOMBRE_DIA" id="7B0FF9F8-A754-041C-0F49-26A241D4CF5B">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="TRIMESTRE_ID" id="92401909-B561-A030-5418-5B9E59682375">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TRIMESTRES_FECHA" id="4B96CDE8-7469-B0F1-1291-877964076776">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="TRIMESTRE_NOMBRE_DIA" id="F782F381-28CC-F24E-0C25-CD38E441BC99">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MES_ID" id="07055222-79A4-0E98-59BC-26E652ACD939">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="MES_FECHA" id="0C238A46-8BA8-2453-1723-8BCC7E776EA9">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MES_NOMBRE_DIA" id="28B70A5F-CD1C-74CA-A588-338EC59D372B">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="SEMANA_ID" id="04811F4B-6646-C276-E1BB-1C6F23805F85">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="SEMANA_FECHA" id="DFEEF6D3-2BBA-BA63-5A20-D7751C741A86">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="SEMANA_NOMBRE_DIA" id="308166BE-015C-F128-F8FA-4E8878203D40">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="DIA_ID" id="EC741C93-7885-F991-4739-6A3DA9BF77D6">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="DIA_FECHA" id="01D79AD8-DAE7-E7F3-06A4-E83CE8130E4C">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="DIA_NOMBRE_DIA" id="33C689B8-BEE6-0591-E1C7-338B0E1F134A">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="DIA_ANTERIOR" id="65FC9318-9F8F-F8D5-6C29-6AA113054528">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MES_ANTERIOR" id="3067A49E-F649-06B1-7A38-712076596DD2">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="AGNO_ANTERIOR" id="4D1279D6-8A1D-378E-10BD-2476C90D4621">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99EC425C-1042-9289-CCCD-1A66F1C8CA9F" name="DIMENSION_TIEMPO PK">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-19 01:43:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5DE60E0-80F3-89D4-E57E-640E37CC52D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

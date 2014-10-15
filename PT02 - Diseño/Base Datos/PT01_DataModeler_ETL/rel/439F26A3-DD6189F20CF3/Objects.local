@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="67C147E9-D375-9D6D-8BED-5693CC2B90C1" name="ESQUEMA_PREDICCION" seqName="seg_0"/>
+   <object objectType="Table" objectID="41996851-6EA1-0C8C-7939-AD41C213020C" name="DIMENSION_TIEMPO" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A954632B-34C4-024B-43D4-02EF1294A173" name="DIMENSION_MEDIO_PAGO">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 19:33:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MEDIO_PAGO_DIMENSION_KEY" id="0C1BCA86-6AFB-25CD-3DB0-5EEE33CA1FD8">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 19:51:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="MEDIO_PAGO_TOTAL_ID" id="16B8A043-6C49-69C3-1992-F13F06274AF1">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 19:51:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="MEDIO_PAGO_TOTAL_CODIGO" id="B8162A03-B682-8EF3-17C1-70A361EB3BFE">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 19:51:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MEDIO_PAGO_TOTAL_DESCRIPCION" id="BB2C0453-D60C-2659-D4A8-88258194A408">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 19:51:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MEDIO_PAGO_ID" id="A5A1CAEC-B7B6-82FE-9360-F68F31B0F1F4">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 19:51:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="MEDIO_PAGO_CODIGO" id="3E68281B-FC8E-7FBF-D8BD-E3A0732C81CC">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 19:51:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MEDIO_PAGO_DESCRIPCIOn" id="7F564866-D558-1BC4-0FF1-FE6D1871C8FF">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 19:51:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18DCA044-5097-1621-D87D-E5110C5FDFC7" name="DIMENSION_MEDIO_PAGO PK">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 19:51:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C1BCA86-6AFB-25CD-3DB0-5EEE33CA1FD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

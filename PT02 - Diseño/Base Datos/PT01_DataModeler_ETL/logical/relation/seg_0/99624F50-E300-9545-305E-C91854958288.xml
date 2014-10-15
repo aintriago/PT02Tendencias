@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIMENSION_GEOGRAFIA_FK" directorySegmentName="seg_0" id="99624F50-E300-9545-305E-C91854958288">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 20:05:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<sourcePk>D251D33A-B030-80CD-A0CB-C83FC0F3122A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2CEC016F-14F0-E63F-D5B6-AC4F4A46CB8C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08F2F35C-2524-6B12-C5CC-A436BFB346AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

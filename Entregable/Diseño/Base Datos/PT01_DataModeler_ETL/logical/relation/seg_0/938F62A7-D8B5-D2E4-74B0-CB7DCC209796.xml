@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIMENSION_TRAMO_APORTES_FK" directorySegmentName="seg_0" id="938F62A7-D8B5-D2E4-74B0-CB7DCC209796">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 20:07:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<sourcePk>E10A57A3-560C-DEA4-2037-F45E41F5DB6D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8EDA32CA-BE44-A085-C352-AA43D31A0FC5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08F2F35C-2524-6B12-C5CC-A436BFB346AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

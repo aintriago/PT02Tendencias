@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Cube class="oracle.dbtools.crest.model.design.multidimensional.Cube" name="CUBO_PREDICCION" directorySegmentName="seg_0" id="B17CFCE1-16D0-98CB-7517-DFAA21ABA940">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 14:51:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<nameInOracleAW>CUBO_PREDICCION</nameInOracleAW>
+<compressedcomposites>false</compressedcomposites>
+<factEntity>08F2F35C-2524-6B12-C5CC-A436BFB346AF</factEntity>
+<partitioned>true</partitioned>
+<useGlobalComposites>false</useGlobalComposites>
+<virtual>true</virtual>
+<factContainers>
+<container>08F2F35C-2524-6B12-C5CC-A436BFB346AF</container>
+</factContainers>
+</Cube>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="MODELO_DIMENSIONAL" id="4A4F38C1-DEFD-55B3-6AEF-FBDAFBB3E6B6" mainViewID="AA3C435D-2D94-3241-E0D1-5FF84A8B6469" boundModel="B3608A2E-9B2A-C179-AB4E-89A6857E5450">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 14:47:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

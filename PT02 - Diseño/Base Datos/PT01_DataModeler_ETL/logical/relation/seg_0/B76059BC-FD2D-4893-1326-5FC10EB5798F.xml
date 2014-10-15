@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIMENSION_MEDIO_PAGO_FK" directorySegmentName="seg_0" id="B76059BC-FD2D-4893-1326-5FC10EB5798F">
+<createdBy>Cata</createdBy>
+<createdTime>2014-06-20 20:07:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>PT01_DataModeler_ETL</ownerDesignName>
+<engineerTo>
+<item key="439F26A3-8090-C8AA-8C49-DD6189F20CF3" value="true"/>
+</engineerTo>
+<sourcePk>18DCA044-5097-1621-D87D-E5110C5FDFC7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A954632B-34C4-024B-43D4-02EF1294A173</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08F2F35C-2524-6B12-C5CC-A436BFB346AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

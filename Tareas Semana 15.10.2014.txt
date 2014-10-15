@@ -1,0 +1,24 @@
+Aldrin.
+
+Dll al github al igual que los 
+planilla base por modulo.
+documento de diseño (dividir por modulo).
+desarrollo del modulo de gestion de información
+desarrollo del modulo de reportes.
+especficiación del desarrollo del avance del modulo de extracción.
+Casos de prueba de sistema para los modulos de extracción y reportes.
+
+Listo--> modulo de extracción
+
+
+Rodrigo
+Revisar documento de requerimiento
+Arreglar la gantt
+avanzar en la memoria
+Desarrollo PHP del Login de Usuarios
+raci para los usuarios funcionales
+
+
+
+
+legacy de clientes (Sybase 15), transacciones(POS File system), teradata (version 14?)
