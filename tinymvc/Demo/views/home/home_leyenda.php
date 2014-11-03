@@ -6,11 +6,11 @@ if(!isset($view_calendario) or !$view_calendario)
 <h2>Leyenda</h2>
 <table>
   <tr>
-    <td>Pruebas</td>
+    <td>Reporte Torta</td>
     <td><div id="colorpicker1" style="cursor: pointer;background-color: #3289c7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
   </tr>
   <tr>
-    <td>Reuniones apoderados</td>
+    <td>Reporte Barra</td>
     <td><div id="colorpicker2" style="cursor: pointer;background-color: #44d134">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
   </tr>
   <tr>
