@@ -6,7 +6,7 @@ block("templates/header");
     <div class="colright">
         <div class="col1wrap">
             <div class="col1">
-            <?php 
+           <?php
             if(isset($new_event) and $new_event)
             {
             	echo block("home/home_new");

@@ -8,7 +8,7 @@ IncludeOnReady("home_menu_onReady");
 	echo '<button id="backCaledarButton">Volver</button>';
 	echo '<button id="saveAndExitButton">Guardar</button>';
 	} else {
-	echo '<button id="newEventButton">Nuevo Evento</button>';		
+	echo '<button id="newEventButton">Nuevo Usuario</button>';		
 	}
 ?>
 

@@ -141,7 +141,6 @@ var Module = (function () {
 		  Utilities.createDatepicker('#Perfil_Fecha_Nacimiento','yy-mm-dd');
 		  activateModify('#Perfil_Rut_Usuario',"RUT_USUARIO");
 		  activateModify('#Perfil_Fecha_Nacimiento',"FECHA_NACIMIENTO");
-		  activateModify('#Perfil_Telefono_Fijo',"NRO_FONO");
 		  activateModify('#Perfil_Telefono_Celular',"NRO_CELULAR");
 		  activateModify('#Perfil_Mail',"CORREO");
 	  },
